@@ -38,10 +38,7 @@ export class AppComponent implements OnInit {
   }
 
   openModal(contact: Contact) {
-    this.selectedContact.id = contact.id
-    this.selectedContact.nome = contact.nome
-    this.selectedContact.telefoneFixo = contact.telefoneFixo
-    this.selectedContact.telefoneCelular = contact.telefoneCelular
+    this.selectedContact = contact
     console.log(contact);
     this.modal = true;
   }
