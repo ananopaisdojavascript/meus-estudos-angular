@@ -1,3 +1,32 @@
+<h1>{{ title }}</h1>
+
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Telefone Fixo</th>
+    <th>Telefone Celular</th>
+    <th>Ações</th>
+  </tr>
+  <tr *ngFor="let contact of contacts">
+    <td>{{ contact.nome }}</td>
+    <td>{{ contact.telefoneFixo }}</td>
+    <td>{{ contact.telefoneCelular }}</td>
+    <td>
+      <button (click)="openModal(contact)">Excluir</button>
+    </td>
+  </tr>
+</table>
+
+<div class="modal" *ngIf="modal">
+  <div class="modal__content">
+    <div class="modal__close">
+      <button (click)="closeModal()">Fechar</button>
+    </div>
+    <h2>Excluir Contato</h2>
+    <p>Você selecionou o contato {{selectedContact.nome}}</p>
+    <button (click)="deleteContact(selectedContact)">Confirmar Exclusão</button>
+  </div>
+</div>
 
 
 <router-outlet></router-outlet>
