@@ -1,0 +1,34 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Gael Edson Teixeira",
+      "telefoneFixo": "(41) 3520-4591",
+      "telefoneCelular": "(41) 98524-5072"
+    },
+    {
+      "id": 2,
+      "nome": "Stella Francisca Vitória Moraes",
+      "telefoneFixo": "(94) 3797-7914",
+      "telefoneCelular": "(94) 99842-0543"
+    },
+    {
+      "id": 3,
+      "nome": "Maria Sarah Viana",
+      "telefoneFixo": "(74) 3561-0384",
+      "telefoneCelular": "(74) 99819-1977"
+    },
+    {
+      "id": 4,
+      "nome": "Danilo Bernardo Cláudio Farias",
+      "telefoneFixo": "(65) 3970-1403",
+      "telefoneCelular": "(65) 98922-6153"
+    },
+    {
+      "id": 5,
+      "nome": "Teresinha Bruna Aparício",
+      "telefoneFixo": "(68) 3774-9706",
+      "telefoneCelular": "(68) 98594-0983"
+    }
+  ]
+}
