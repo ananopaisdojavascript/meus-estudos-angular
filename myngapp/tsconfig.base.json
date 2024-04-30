@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2022",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@myngapp/orders": ["orders/src/index.ts"],
+      "@myngapp/orders-lib": ["src/app/modules/orders/src/index.ts"],
+      "@myngapp/products": ["products/src/index.ts"],
+      "@myngapp/products-lib": ["src/app/modules/products/src/index.ts"],
+      "@myngapp/shared-ui": ["shared-ui/src/index.ts"],
+      "@myngapp/shared-ui-lib": ["src/app/modules/shared/ui/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
